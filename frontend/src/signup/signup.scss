@@ -1,0 +1,27 @@
+.signup{ 
+  .card{
+    width: 100%;
+  };
+  .signup-form{
+    // .signup-alert-success{
+    //   display: none;
+    // }
+    // .signup-alert-error{
+    //   display: none;
+    // }
+    width:90%;
+    margin: 0 auto;
+    float: none;
+  }
+} 
+// animation
+.alert-shown {
+  // height: 100px !important;
+  opacity: 1;
+  transition: all 200ms linear;
+}
+.alert-hidden {
+  // height: 0px !important;
+  opacity: 0;
+  transition: all 2s linear;
+}

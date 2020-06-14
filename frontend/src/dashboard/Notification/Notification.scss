@@ -1,0 +1,80 @@
+.notification{
+  margin:20px;
+  float:right;
+  // position: absolute;
+  // top: 50%;
+  // transform: translateY(-50%);
+  // z-index: 9999;
+  
+  // padding: 10px;
+  width: 100%;
+  // background-color: white;
+  // border-radius: 2px;
+
+
+  // a, a:hover, a:visited, a:link, a:active {
+  //   text-decoration: none;
+  // }
+  // a{
+  //   position: relative;
+  //   padding: 0 5px;
+  //   line-height: 30px;
+  //   height: 30px;
+  //   color: #89949B;
+  //   z-index: 5;
+  //   display: inline-block;
+  // }
+  // i{
+  //   &:hover{
+  //     color: #23527c;
+  //   }
+  //   color:#89949B;
+  // }
+
+  // .dropdown{
+  //   position: relative;
+  //   .dropdown-menu{
+  //     position: absolute;
+  //     right:0px;
+  //     // width: 1000px;
+  //   }
+  // }
+  .dropdown-menu{
+    position: absolute;
+    // display: static;
+    // transform: translate3d(-64px, 24px, 0px) !important;
+    .friend-request-title{
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      color: #05728f;
+      // padding-left: 15px;
+      text-align: center;
+      // text-decoration: underline;
+    }
+  }
+  .bell{
+    background: white;
+    border-radius: 3px;
+    padding: 9px 12px;
+    position: relative;
+    float: right;
+    .badge{
+      padding: 3px 5px 2px;
+      position: absolute;
+      top: 5px;
+      left: 10px;
+      display: inline-block;
+      min-width: 10px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #ffffff;
+      line-height: 1;
+      vertical-align: baseline;
+      white-space: nowrap;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .badge-danger {
+        background-color: #db5565;
+    }
+  }
+}

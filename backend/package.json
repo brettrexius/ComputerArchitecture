@@ -1,0 +1,30 @@
+{
+  "name": "CECS-445-Software-Architecture",
+  "version": "1.0.0",
+  "description": "Chatapp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurikong/CECS-445-Software-Architecture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurikong/CECS-445-Software-Architecture/issues"
+  },
+  "homepage": "https://github.com/yurikong/CECS-445-Software-Architecture#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.3",
+    "socket.io": "^2.3.0"
+  }
+}

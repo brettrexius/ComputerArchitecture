@@ -1,0 +1,48 @@
+/* .nav-link.signup{display: none;} */
+body{
+  background: linear-gradient(to right, rgba(58,123,213, 0.2), rgba(0,210,255, 0.2));
+}
+.dashboard{
+  border-top: solid 1px gray;
+  .btn-primary{
+    margin: 20px 0px;
+    border-radius: 2px;
+    float:right;
+  }
+}
+.header-search-bar{ border:1px solid #cdcdcd; border-width:0 0 1px 0; width:80%; padding:2px 0 4px 6px; background:none;}
+.header-search-button button{
+  border: medium none;
+  padding: 0;
+  color: #707070;
+}
+
+.message-history {
+  border: 1px solid #c4c4c4;
+  height: 516px;
+  overflow-y: scroll;
+  width:100%;
+}
+
+/* .message-input-area input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+} */
+
+/* .send-message-button {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 33px;
+} */

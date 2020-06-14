@@ -1,0 +1,16 @@
+
+.outgoing-message-cover{
+  overflow: auto;
+}
+.outgoing-message p {
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0; color:#fff;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+}
+.outgoing-message {
+  float: right;
+  width: 45%;
+}

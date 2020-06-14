@@ -1,0 +1,20 @@
+.friend{
+  font: 14px/20px "Lato", Arial, sans-serif;
+  padding: 5px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.online{
+  color: #86BB70;
+}
+.offline{
+  // color: #E38968;
+  color: #F60003;
+}
+.close:focus{
+  outline:0;
+}
+.unfriend{
+  position: relative;
+  right: 10px;
+  bottom: 35px;
+}

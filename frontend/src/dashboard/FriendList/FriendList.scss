@@ -1,0 +1,14 @@
+.friends{
+  // background-color: rgba(250, 250, 250, 0.8);
+  // min-width: 270px;
+  .friend-list{
+    // border: 1px solid #c4c4c4;
+
+    height: 60vh;
+    margin:0;
+    padding:0;
+    overflow:hidden; 
+    overflow-y:scroll;
+    list-style-type: none;
+  }  
+}
